@@ -1,13 +1,13 @@
-//#include <stdio.h>//ºÎµ¿ ¼öµ¿Á¡ ¿ÀÂ÷ ½Ç½À
+#include <stdio.h>//ë¶€ë™ ìˆ˜ë™ì  ì˜¤ì°¨ ì‹¤ìŠµ
 
-//int main()
-//{
-	//float f = 0.00F;
-	//int i = 0;
-	//for (f = 0.0; f < 100.0f; f += 0.1f, i++) {
-		//printf("f : %f\n", f);//f·Î °¡¸¥ ÀÛ¾÷ ¼öÇà
-	//}
+int main()
+{
+	float f = 0.00F;
+	int i = 0;
+	for (f = 0.0; f < 100.0f; f += 0.1f, i++) {
+		//printf("f : %f\n", f);//fë¡œ ê°€ë¥¸ ì‘ì—… ìˆ˜í–‰
+	}
 
-	//printf("i : % d\n", i);
-	//return 0;
-//}
+	printf("i : % d\n", i);
+	return 0;
+}
